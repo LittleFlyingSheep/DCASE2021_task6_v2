@@ -46,6 +46,7 @@ def create_dataset():
     inner_logger.info('Done!')
 
     # # all captions in dev set
+    # # write the 'words_list.p' and 'words_freq.p'
     # dev_captions = [csv_entry.get(caption_field)
     #                     for csv_entry in dev_csv
     #                     for caption_field in caption_fields]
